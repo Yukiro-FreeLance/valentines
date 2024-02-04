@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico"> 
+    
+    <title>Valentine's Proposal</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="images/please-cat.gif"></img>
+            <h1 class="hh" id="name">Hi, Langga!</h1>
+            <p class="pp" id="question">Do you wanna go out with me?</p>
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('No')">No</button>
+                <button onclick="showMessage('Yes')" id="yesButton">Yes</button>
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>Nice try, but you can't escape that easily!</p>
+            </div>
+            <div class="hidden-message" id="yes-message">
+                <p>YAY! I LOVE YOU!</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
