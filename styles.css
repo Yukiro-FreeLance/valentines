@@ -6,7 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     background: #FFD6CB;
-    font-size: 35px;
+    font-size: 24px;
     
 }
 .hh{
@@ -17,7 +17,7 @@ body {
 .pp{
 
 
-    font-size: 50px;
+    font-size: 20px;
     font-style: oblique;
     font-weight: 800;
 }
